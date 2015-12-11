@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def home
-  	rander text: "Howdy mundo"
+  	render text: "Howdy mundo"
   end
 end
