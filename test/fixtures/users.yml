@@ -1,4 +1,5 @@
 diego:
+  id: 1
   name: Diego D
   email: diego@example.com
   password_digest: <%= User.digest('password') %>
